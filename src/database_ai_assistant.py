@@ -9,7 +9,7 @@ from langchain_community.agent_toolkits.sql.base import create_sql_agent
 from langchain.agents.agent_types import AgentType
 from sqlalchemy import create_engine
 
-st.set_page_config(page_title="Assistente de Banco de Dados IA", page_icon="🤖", layout="wide")
+st.set_page_config(page_title="SAGGA - AI under Construction", page_icon="🤖", layout="wide")
 
 st.markdown("""
     <style>
@@ -23,14 +23,15 @@ st.markdown("""
     </style>
 """, unsafe_allow_html=True)
 
-st.title("🤖 Assistente de Banco de Dados com IA")
-st.markdown("Converse com seu banco de dados PostgreSQL de forma natural!")
+st.title("🤖 SAGGA")
+st.markdown("Natural Language Data Relationship")
 
 with st.sidebar:
     st.header("📚 Instruções")
     st.markdown("""
     - Faça perguntas sobre seus dados em linguagem natural
-    - A IA criará consultas SQL automaticamente
+    - SAGGA em fase de testes
+    - Feito por Antonio Gornatti
     """)
     
     st.header("⚙️ Configurações")
