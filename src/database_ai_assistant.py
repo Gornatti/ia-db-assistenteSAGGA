@@ -87,7 +87,7 @@ if prompt := st.chat_input("Faça uma pergunta sobre o banco de dados..."):
             try:
                 # Cria o agente SQL com OpenAI
                 llm = ChatOpenAI(
-                    model="gpt-4",
+                    model="gpt-3.5-turbo",
                     temperature=0,
                     api_key=api_key
                 )
