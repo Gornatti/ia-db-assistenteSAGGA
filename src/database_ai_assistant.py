@@ -66,7 +66,7 @@ if prompt := st.chat_input("Faça uma pergunta sobre o banco de dados..."):
         if api_key and "db" in st.session_state:
             try:
                 llm = ChatOpenAI(
-                    model="gpt-3.5-turbo",
+                    model="gpt-4",
                     temperature=0,
                     api_key=api_key
                 )
