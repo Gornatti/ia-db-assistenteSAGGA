@@ -40,7 +40,7 @@ class DatabaseAIAssistant:
         """Configura o agente de IA"""
         try:
             self.llm = ChatOpenAI(
-                model="gpt-3.5-turbo",
+                model="gpt-4",
                 temperature=0,
                 api_key=self.api_key
             )
